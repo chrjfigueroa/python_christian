@@ -57,3 +57,15 @@ def create_2D_list():
 matrix = create_2D_list()
 print(matrix)
 
+#3.2
+def no_thirds(matrix):
+    for i, element in enumerate(matrix):
+        for x in range(8):
+            y=3*x
+            if y in element:
+                matrix[i][x+1]="?"
+            
+    return matrix
+matrix_new = no_thirds(matrix)
+print(matrix_new)
+
