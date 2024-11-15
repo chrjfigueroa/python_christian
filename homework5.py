@@ -28,7 +28,7 @@ print(odd_magnitudes)
 
 
 """
-Let's Play Checker's
+2. Let's Play Checker's
 """
 
 def checkers():
